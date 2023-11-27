@@ -1,0 +1,68 @@
+.project-body {
+ width: 100%;
+ height: auto;
+ padding: 40px;
+ font-family: 'Poppins', sans-serif;
+ box-sizing: border-box;
+}
+
+.project-body h1 {
+ text-align: center;
+ font-size: 3rem;
+}
+
+.section-part{
+ margin-top:40px;
+}
+
+.section-part h2{
+ margin: 20px 0;
+ font-size: 2rem;
+}
+
+.section-info{
+ display: flex;
+ align-items: center;
+ gap: 20px;
+}
+
+.change-position{
+ flex-direction: column;
+}
+
+.section-info p{
+ font-size: 1.3rem;
+}
+
+.section-info img {
+ width: 45%;
+ border-radius: 20px;
+}
+
+.lo-fi-link{
+ color:whitesmoke;
+}
+
+.estudio-resultados{
+ width:100%;
+ height:auto;
+ display:flex;
+ justify-content: center;
+ gap: 24px;
+}
+
+.resultados-card{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ width:28%;
+ height:240px;
+ background-color: rgb(95, 46, 117);
+ border-radius: 20px;
+ text-align: center;
+ box-sizing: border-box;
+}
+
+.resultados-card h3{
+ font-size: 1.8rem;
+}
