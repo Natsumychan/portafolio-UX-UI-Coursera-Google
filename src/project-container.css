@@ -1,0 +1,66 @@
+.project-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 40px;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.project-container h2{
+ text-align: center;
+ font-size: 3rem;
+}
+
+.card-container{
+ display: flex;
+ margin-top: 80px;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ flex-wrap: wrap;
+ gap: 30px;
+}
+
+.card-container a{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 40%;
+ height: 300px;
+ box-sizing: border-box;
+ text-decoration: none;
+ background-color: rgb(102, 21, 179);
+ border-radius: 20px;
+ gap: 40px;
+ overflow: hidden;
+}
+
+.app-img{
+ width: 100%;
+ height: 240px;
+ background-size: cover;
+ background-position:center;
+ background-repeat: no-repeat;
+}
+
+.app-1{
+ background-image: url("./assets/Depelicula.png");
+}
+
+.app-2{
+ background-image: url("./assets/Antojos-y-mas.png");
+}
+
+.app-3{
+ background-image: url("./assets/el-nido-del-paisita.png");
+}
+
+.app-title{
+ color:whitesmoke;
+ margin-bottom: 30px;
+ font-size: 1.4rem;
+}

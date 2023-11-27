@@ -3,6 +3,7 @@ import "./Footer.css"
 const Footer= () =>{
  return <footer className="footer">
   <div className="contact-info">
+   <p>Contacto</p>
    <p>Teléfono: 50-123-678</p>
    <p>Correo: diana@gmail.com</p>
   </div>

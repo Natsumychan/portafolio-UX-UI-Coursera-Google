@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import './index.css'
 import SobreMi from "./Sobre-mi"
 import ProjectContainer from "./project-container"
