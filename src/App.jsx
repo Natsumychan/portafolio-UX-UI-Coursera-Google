@@ -6,6 +6,8 @@ import Paisita from './proyecto-montañerito-paisa'
 import Pasteles from "./proyecto-pasteles"
 import Header from "./Header"
 import Footer from "./Footer"
+import SobreMi from "./Sobre-mi"
+import ProjectContainer from "./project-container"
 
 const App= () => {
   
@@ -18,6 +20,8 @@ const App= () => {
           <Route path="peliculas" element={<Peliculas />} />
           <Route path="pasteles" element={<Pasteles />} />
           <Route path="montañerito-paisa" element={<Paisita />} />
+          <Route path="sobre-mi" element={<SobreMi />} />
+          <Route path="proyectos" element={<ProjectContainer />} />
         </Routes>
         <Footer/>
       </BrowserRouter>

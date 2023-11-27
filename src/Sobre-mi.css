@@ -1,0 +1,13 @@
+.sobre-mi{
+ width: 100%;
+ height: 100dvh;
+ padding: 40px;
+ font-family: 'Poppins', sans-serif;
+ box-sizing: border-box;
+}
+
+.sobre-mi h2{
+ text-align: center;
+ font-size: 3.2rem;
+
+}

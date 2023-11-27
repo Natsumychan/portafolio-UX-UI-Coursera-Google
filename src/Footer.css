@@ -1,0 +1,30 @@
+.footer{
+ display: flex;
+ width: 100%;
+ height: 120px;
+ padding: 20px;
+ justify-content: space-between;
+ box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+ background-color: #13161a;
+}
+
+.contact-info{
+ padding-top: 5px;
+}
+
+.datos-pagina p{
+ text-align: center;
+ padding-top: 5px ;
+}
+
+.media-container{
+ display: flex;
+ padding-top: 5px;
+ gap: 16px;
+}
+
+.media-container img{
+ width: 40px;
+ height: 40px;
+}

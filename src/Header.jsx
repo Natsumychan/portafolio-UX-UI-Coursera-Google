@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import './Header.css'
 
 const Header= () =>{
@@ -9,9 +10,9 @@ const Header= () =>{
   </div>
   <nav>
    <ul className='nav-list'>
-    <li>Inicio</li>
-    <li>proyectos</li>
-    <li>Sobre mi</li>
+    <li><Link to="/">Inicio</Link></li>
+    <li><Link to="proyectos">Proyectos</Link></li>
+    <li><Link to="sobre-mi">Sobre mi</Link></li>
    </ul>
   </nav>
  </header>

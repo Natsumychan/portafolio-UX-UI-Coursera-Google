@@ -6,6 +6,7 @@
  justify-content: space-between;
  box-sizing: border-box;
  font-size: 1.2rem;
+ font-family: 'Poppins', sans-serif;
 }
 
 .logo-container{
@@ -39,4 +40,9 @@ nav{
 
 .nav-list li{
  display: block;
+}
+
+.nav-list li a{
+ text-decoration: none;
+ color: whitesmoke;
 }
