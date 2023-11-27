@@ -1,6 +1,6 @@
 import {  BrowserRouter, Routes, Route} from "react-router-dom"
-import './App.css'
 import Inicio from "."
+import './App.css'
 import Peliculas from './proyecto-peliculas'
 import Paisita from './proyecto-montañerito-paisa'
 import Pasteles from "./proyecto-pasteles"

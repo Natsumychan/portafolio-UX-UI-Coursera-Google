@@ -1,6 +1,19 @@
+
 const Header= () =>{
  return <>
-  <h1>Este es el header</h1>
+ <header>
+  <div>
+   <img src="" alt="" />
+   <p>Logo</p>
+  </div>
+  <nav>
+   <ul>
+    <li>Inicio</li>
+    <li>proyecto</li>
+    <li>Sobre mi</li>
+   </ul>
+  </nav>
+ </header>
  </>
 }
 
