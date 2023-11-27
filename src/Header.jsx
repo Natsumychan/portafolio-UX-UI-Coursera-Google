@@ -1,15 +1,16 @@
+import './Header.css'
 
 const Header= () =>{
  return <>
- <header>
-  <div>
-   <img src="" alt="" />
-   <p>Logo</p>
+ <header className="header">
+  <div className="logo-container">
+   <img src="../public/disenador-grafico.png" alt="logo diseñador" />
+   <p>Diana Castaño</p>
   </div>
   <nav>
-   <ul>
+   <ul className='nav-list'>
     <li>Inicio</li>
-    <li>proyecto</li>
+    <li>proyectos</li>
     <li>Sobre mi</li>
    </ul>
   </nav>
