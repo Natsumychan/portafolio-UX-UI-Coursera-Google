@@ -4,7 +4,7 @@ const Header= () =>{
  return <>
  <header className="header">
   <div className="logo-container">
-   <img src="../public/disenador-grafico.png" alt="logo diseñador" />
+   <img src="/disenador-grafico.png" alt="logo diseñador" />
    <p>Diana Castaño</p>
   </div>
   <nav>
