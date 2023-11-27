@@ -8,6 +8,30 @@
 
 .sobre-mi h2{
  text-align: center;
- font-size: 3.2rem;
+ font-size: 3rem;
+}
 
+.sobre-mi p{
+ padding-top: 20px;
+ margin-bottom: 50px;
+ text-align: justify;
+ font-size: 1.4rem;
+}
+
+.boton-cv{
+ display: block;
+ margin: 0 auto;
+ padding: 10px 40px;
+ width: 40%;
+ -webkit-box-shadow: 4px 13px 23px -2px rgba(102, 91, 102, 0.67);
+  -moz-box-shadow: 4px 13px 23px -2px rgba(102, 91, 102, 0.67);
+  box-shadow: 4px 13px 23px -2px rgba(102, 91, 102, 0.67);
+ border: #913175 solid 2px;
+ background-color: whitesmoke;
+}
+
+.boton-cv a{
+ text-decoration: none;
+ font-size: 1.4rem;
+ color: #913175;
 }
