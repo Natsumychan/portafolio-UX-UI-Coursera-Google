@@ -143,8 +143,6 @@ const Peliculas= () =>{
     </div>
    </div>
   </div>
-  
- 
  </article>
  </>
 }
